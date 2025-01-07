@@ -4,10 +4,38 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
     <title>Vite App</title>
   </head>
   <body>
     <div id="app">
+      <nav class="nav-container" id="navbar">
+        <div class="nav-logo">
+          <img src="./public/assets/techsoftware-logo.png" width="100px" height="100px" alt="company logo" />
+          <h2>TechSoftware Innovations</h2>
+        </div>
+        <ul class="nav-sections">
+          <li>Sobre nosotros</li>
+          <li>Nuestros proyectos</li>
+          <li>Contáctanos</li>
+        </ul>
+        <button id="toggle-button"> 
+          <span class="material-symbols-outlined">menu</span>
+        </button>
+      </nav>
+      
+      <div class="sidebar" id="sidebar">
+        <ul>
+          <li>Sobre nosotros</li>
+          <li>Nuestros proyectos</li>
+          <li>Contáctanos</li>
+        </ul>
+        <button id="close-sidebar">
+          x
+            </span>
+        </button>
+      </div>
+      
       <section class="home-section-container">
          <div class="home-information-content">
             <h1> WE ARE INNOVATION!</h1>
