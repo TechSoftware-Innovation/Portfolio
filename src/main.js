@@ -36,11 +36,11 @@ const prevBtn = document.getElementById("prevBtn");
 const nextBtn = document.getElementById("nextBtn");
 
 prevBtn.addEventListener("click", () => {
-  carousel.scrollBy({ left: -500, behavior: "smooth" });
+  carousel.scrollBy({ left: -510, behavior: "smooth" });
 });
 
 nextBtn.addEventListener("click", () => {
-  carousel.scrollBy({ left: 500, behavior: "smooth" });
+  carousel.scrollBy({ left: 510, behavior: "smooth" });
 });
 
 // LOAD PROJECTS FROM JSON FILE
@@ -90,8 +90,21 @@ async function loadProjects() {
       card.appendChild(img);
       card.appendChild(cardInfo);
 
-      projectsContainer.appendChild(card);
+      carousel.appendChild(card); // Añadir la card al carrusel
     });
+
+    // Ahora que las tarjetas se han cargado, obtenemos su ancho
+    const cardWidth = document.querySelector(".projects-card").offsetWidth + 16;
+
+    // Agregar los listeners de los botones de desplazamiento
+    prevBtn.addEventListener("click", () => {
+      carousel.scrollBy({ left: -cardWidth, behavior: "smooth" }); // Desplazarse a la izquierda por el ancho de una card
+    });
+
+    nextBtn.addEventListener("click", () => {
+      carousel.scrollBy({ left: cardWidth, behavior: "smooth" }); // Desplazarse a la derecha por el ancho de una card
+    });
+
   } catch (error) {
     console.error("Error loading projects:", error);
   }
