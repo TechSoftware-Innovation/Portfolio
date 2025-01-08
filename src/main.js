@@ -30,19 +30,20 @@ window.addEventListener("resize", () => {
   }
 });
 
+// CAROUSEL FUNCTIONALITY
 const carousel = document.getElementById("carousel");
 const prevBtn = document.getElementById("prevBtn");
 const nextBtn = document.getElementById("nextBtn");
 
 prevBtn.addEventListener("click", () => {
-  carousel.scrollBy({ left: -300, behavior: "smooth" });
+  carousel.scrollBy({ left: -500, behavior: "smooth" });
 });
 
 nextBtn.addEventListener("click", () => {
-  carousel.scrollBy({ left: 300, behavior: "smooth" });
+  carousel.scrollBy({ left: 500, behavior: "smooth" });
 });
 
-// FUNCIONALIDAD PARA CARGAR PROYECTOS DESDE UN ARCHIVO JSON
+// LOAD PROJECTS FROM JSON FILE
 const projectsContainer = document.getElementById("carousel");
 
 async function loadProjects() {
@@ -78,7 +79,7 @@ async function loadProjects() {
       const link = document.createElement("a");
       link.href = project.link;
       link.textContent = "Ver proyecto";
-      link.target = "_blank";
+      link.target = "";
       button.appendChild(link);
 
       cardInfo.appendChild(title);
