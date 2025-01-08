@@ -2,22 +2,20 @@
 @import url("style/base.css");
 
 :root {
-  --primary-color: #3652ad;
-  --secondary-color: #6cfbce;
-  --third-color: #20c198;
-  --footer-color: #008a65;
-  --error-color: hsl(0, 100%, 63%);
-
   --breakpoint-mobile: 480px;
   --breakpoint-tablet: 768px;
   --breakpoint-laptop: 1024px;
   --breakpoint-desktop: 1366px;
   --breakpoint-ultrawide: 2560px;
+  --primary: #efbf04;
+  --secondary: #ffff;
 }
+
 
 body {
   height: 100dvh;
   position: relative;
+  background-color: #232323;
 }
 
 * {
