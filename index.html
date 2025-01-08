@@ -9,9 +9,44 @@
   </head>
   <body>
     <div id="app">
-      <header class="navbar border">
-        <h1>Soy navbar</h1>
-      </header>
+      <nav class="nav-container" id="navbar">
+        <div class="nav-logo">
+          <img src="./public/assets/techsoftware-logo.png" width="100px" height="100px" alt="company logo" />
+          <h2>TechSoftware Innovations</h2>
+        </div>
+        <ul class="nav-sections">
+          <li>Sobre nosotros</li>
+          <li>Nuestros proyectos</li>
+          <li>Contáctanos</li>
+        </ul>
+        <button id="toggle-button"> 
+          <span class="material-symbols-outlined">menu</span>
+        </button>
+      </nav>
+      
+      <div class="sidebar" id="sidebar">
+        <ul>
+          <li>Sobre nosotros</li>
+          <li>Nuestros proyectos</li>
+          <li>Contáctanos</li>
+        </ul>
+        <button id="close-sidebar">
+          x
+            </span>
+        </button>
+      </div>
+      
+      <section class="home-section-container">
+         <div class="home-information-content">
+            <h1> WE ARE INNOVATION!</h1>
+            <h2> TechSoftware Innovations revolutionizes the way you manage your business. 
+              Simplify processes, connect with your clients, and take your operations to the next level.
+            </h2>
+         </div>
+         <div class="home-image-logo">
+           <img src="./public/assets/techsoftware-logo.png" width="500" height="500"/>
+         </div>
+      </section>
       <main class="main-content">
         <section class="contact">
           <div class="container">
