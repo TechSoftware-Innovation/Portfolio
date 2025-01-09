@@ -3,3 +3,7 @@
 @import url('home/contact.css');
 @import url('home/footer.css');
 @import url('home/projects.css');
+@import url('project/project.css');
+@import url('project/technologies.css');
+@import url('project/features.css');
+@import url('project/carrousel.css');
