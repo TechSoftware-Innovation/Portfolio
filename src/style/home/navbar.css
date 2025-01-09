@@ -22,7 +22,7 @@
   cursor: pointer;
 }
 
-h2,
+ h2,
 li {
   color: var(--secondary);
   font-weight: normal;
@@ -42,9 +42,13 @@ li:hover {
   font-size: 2rem;
 }
 
-h1 {
+.home-information-content h1 {
   color: var(--primary);
-  font-size: 3rem;
+  font-size: 6rem;
+}
+
+.home-information-content h2 {
+  font-size: 2rem;
 }
 
 .home-section-container {
@@ -84,10 +88,14 @@ h1 {
 
 .home-information-content {
   position: relative;
-  width: 40%;
+  width: 60%;
   color: white;
   z-index: 1;        
   padding: 20px;
+}
+
+.home-information-content h2{
+  width: 70%;
 }
 
 
@@ -165,6 +173,9 @@ h1 {
   .nav-sections {
     font-size: 1.5rem;
   }
+  .home-information-content {
+    width: 70%;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -179,6 +190,9 @@ h1 {
   #toggle-button {
     display: block;
   }
+  .home-information-content {
+    width: 80%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -192,8 +206,12 @@ h1 {
   }
 
   .home-information-content {
-    width: 70%;
+    width: 90%;
   }
+  .home-information-content h2{
+    width: 80%;
+  }
+  
 }
 
 @media (max-width: 480px) {
@@ -204,5 +222,8 @@ h1 {
   }
   .nav-logo img{
     display: none;
+  }
+  .home-information-content {
+    width: 100%;
   }
 }
