@@ -29,7 +29,8 @@ h4,
 h5,
 h6,
 p,
-span {
+span,
+a {
   font-family: "Roboto", sans-serif;
 }
 

@@ -1,0 +1,46 @@
+{
+    "projects": [
+        {
+            "name": "Project 1",
+            "description": "Proyecto realizado con Vue en el frontend y C# en el backend que permite a los usuarios crear, editar y eliminar tareas, y marcarlas como completadas.",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwO_mtaPMuUL7SN4vj5yK50NX9lLhi-pQb-A&s",
+            "link": "https://www.google.com"
+        },
+        {
+            "name": "Project 2",
+            "description": "This is a project",
+            "image": "https://avatars.githubusercontent.com/u/67919709?s=200&v=4",
+            "link": "https://www.google.com"
+        },
+        {
+            "name": "Project 3",
+            "description": "This is a project",
+            "image": "project3.jpg",
+            "link": "https://www.google.com"
+        },
+        {
+            "name": "Project 4",
+            "description": "This is a project",
+            "image": "project4.jpg",
+            "link": "https://www.google.com"
+        },
+        {
+            "name": "Project 2",
+            "description": "This is a project",
+            "image": "https://avatars.githubusercontent.com/u/67919709?s=200&v=4",
+            "link": "https://www.google.com"
+        },
+        {
+            "name": "Project 3",
+            "description": "This is a project",
+            "image": "project3.jpg",
+            "link": "https://www.google.com"
+        },
+        {
+            "name": "Project 4",
+            "description": "This is a project",
+            "image": "project4.jpg",
+            "link": "https://www.google.com"
+        }
+    ]
+}
