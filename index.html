@@ -6,58 +6,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TechSoftware Innovations</title>
     <link rel="stylesheet" href="./src/style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
   </head>
   <body>
-    <nav class="nav-container" id="navbar">
-      <div class="nav-logo">
-        <img src="./public/assets/techsoftware-logo.png" width="100px" height="100px" alt="company logo" />
-        <h2>TechSoftware Innovations</h2>
+      <nav class="nav-container" id="navbar">
+        <div class="nav-logo">
+          <img src="./public/assets/techsoftware-logo.png" width="70px" height="70px" alt="company logo" />
+          <h2>TechSoftware Innovations</h2>
+        </div>
+        <ul class="nav-sections">
+          <li>About us</li>
+          <li>Our projects</li>
+          <li>Contact us</li>
+        </ul>
+        <button id="toggle-button"> 
+          <span class="material-symbols-outlined">menu</span>
+        </button>
+      </nav>
+      
+      <div class="sidebar" id="sidebar">
+        <ul>
+          <li>About us</li>
+          <li>Our projects</li>
+          <li>Contact us</li>
+        </ul>
+        <button id="close-sidebar">
+          x
+            </span>
+        </button>
       </div>
-      <ul class="nav-sections">
-        <li>Sobre nosotros</li>
-        <li>Nuestros proyectos</li>
-        <li>Contáctanos</li>
-      </ul>
-      <button id="toggle-button">
-        <span class="material-symbols-outlined">menu</span>
-      </button>
-    </nav>
-
-    <div class="sidebar" id="sidebar">
-      <ul>
-        <li>Sobre nosotros</li>
-        <li>Nuestros proyectos</li>
-        <li>Contáctanos</li>
-      </ul>
-      <button id="close-sidebar">
-        x
-        </span>
-      </button>
-    </div>
-
-    <section class="home-section-container">
-      <div class="home-information-content">
-        <h1> WE ARE INNOVATION!</h1>
-        <h2> TechSoftware Innovations revolutionizes the way you manage your business.
-          Simplify processes, connect with your clients, and take your operations to the next level.
-        </h2>
-      </div>
-      <div class="home-image-logo">
-        <img src="./public/assets/techsoftware-logo.png" width="500" height="500"/>
-      </div>
-    </section>
-    <main class="main-content">
-      <section class="contact">
-        <div class="container">
-          <div class="contact__left">
-            <h1 class="contact__left-title">Let's Talk</h1>
-            <p class="contact__left-description">
-              If you have any questions or need assistance, contact us at
-              <a href="mailto:techsoftwareinnovations@gmail.com">techsoftwareinnovations@gmail.com</a>. We're here and happy to help!
-            </p>
-
-            <figure>
-              <img
+      
+      <main class="main-content">
+        <section class="home-section-container">
+          <video autoplay muted loop class="background-video">
+            <source src="./src/assets/video/banner.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <div class="home-information-content">
+             <h1> WE ARE INNOVATION!</h1>
+             <h2> TechSoftware Innovations revolutionizes the way you manage your business. 
+               Simplify processes, connect with your clients, and take your operations to the next level.
+             </h2>
+          </div>
+        </section>
+        <section class="projects">
+          <h1 class="projects-title">OUR PROJECTS</h1>
+          <div class="projects-carousel">
+            <button class="carousel-button left" id="prevBtn">←</button>
+            <div class="projects-container" id="carousel">
+              <!--article class="projects-card">
+                <img class="projects-card-image" src="/" alt="Illustrative photo of a project">
+                <div class="projects-card-info">
+                  <h4 class="projects-card-title">PROYECTO DE SOFTWARE</h4>
+                  <hr class="projects-card-divider">
+                  <h6 class="projects-card-description">Nuestro equipo diseñó arquitecturas escalables en la nube.</h6>
+                  <button class="projects-card-button"><a href="https://www.google.com">Ver proyecto</a></button>
+                </div>
+              </article -->
+            </div>
+            <button class="carousel-button right" id="nextBtn">→</button>
+          </div>
+        </section>        
+        <section class="contact">
+          <div class="container">
+            <div class="contact__left">
+              <h1 class="contact__left-title">Let's Talk</h1>
+              <p class="contact__left-description">
+                If you have any questions or need assistance, contact us at 
+                <a href="mailto:techsoftwareinnovations@gmail.com">techsoftwareinnovations@gmail.com</a>. We're here and happy to help!
+              </p>
+              
+              <figure>
+                <img
                   src="https://cdni.iconscout.com/illustration/premium/thumb/contact-us-illustration-download-in-svg-png-gif-file-formats--customer-support-service-representative-call-pack-business-illustrations-5059493.png"
                   alt="Contact"
               />

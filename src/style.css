@@ -43,7 +43,7 @@
 body {
   height: 100dvh;
   position: relative;
-  background-color: #232323;
+  background-color: black;
 }
 
 * {
@@ -57,7 +57,8 @@ h4,
 h5,
 h6,
 p,
-span {
+span,
+a {
   font-family: "Roboto", sans-serif;
 }
 
