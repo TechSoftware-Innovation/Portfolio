@@ -25,21 +25,27 @@
             "link": "https://www.google.com"
         },
         {
-            "name": "Project 2",
+            "name": "Project 5",
             "description": "This is a project",
             "image": "https://avatars.githubusercontent.com/u/67919709?s=200&v=4",
             "link": "https://www.google.com"
         },
         {
-            "name": "Project 3",
+            "name": "Project 6",
             "description": "This is a project",
             "image": "project3.jpg",
             "link": "https://www.google.com"
         },
         {
-            "name": "Project 4",
-            "description": "This is a project",
-            "image": "project4.jpg",
+            "name": "Alquila Facil",
+            "description": "An application for searching and renting event spaces, developed using Flutter for the frontend, .NET Core for the backend, and MySQL as the database. Firebase services were integrated for authentication, along with additional services for image management and PayPal for handling payments.",
+            "image": "https://media.discordapp.net/attachments/1320542364007403594/1326712838525419550/App-Mobile.png?ex=67806d1d&is=677f1b9d&hm=1e3a5c7d5b393b071177ae6038fd2d2a70a55b90de638f3ec8e551e14a8839ee&=&format=webp&quality=lossless&width=561&height=1282",
+            "link": "https://www.google.com"
+        },
+        {
+            "name": "ArtCollab",
+            "description": "An application designed for collaboration between artists and writers. Registered users can explore popular works by genre and, if they are artists or writers, earn commissions for each published piece.",
+            "image": "https://media.discordapp.net/attachments/1320542364007403594/1326713437643866122/Populares.png?ex=67806dac&is=677f1c2c&hm=b308af8644d22e4893070c59e5cd1c5ec982cb2e361f8f8175ac9c1a1271d7a2&=&format=webp&quality=lossless&width=1097&height=1282",
             "link": "https://www.google.com"
         }
     ]

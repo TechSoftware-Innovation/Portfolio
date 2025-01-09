@@ -15,7 +15,7 @@
 body {
   height: 100dvh;
   position: relative;
-  background-color: #232323;
+  background-color: black;
 }
 
 * {
