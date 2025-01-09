@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./techsoftware-logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechSoftware Innovations</title>
+    <link rel="stylesheet" href="./src/style.css" />
+</head>
+<body>
+<nav class="nav-container" id="navbar">
+    <div class="nav-logo">
+        <img src="./public/assets/techsoftware-logo.png" width="100px" height="100px" alt="company logo" />
+        <h2>TechSoftware Innovations</h2>
+    </div>
+    <ul class="nav-sections">
+        <li><a href="project.html">Sobre nosotros</a></li>
+        <li>Nuestros proyectos</li>
+        <li>Contáctanos</li>
+    </ul>
+    <button id="toggle-button">
+        <span class="material-symbols-outlined">menu</span>
+    </button>
+</nav>
+<div class="sidebar" id="sidebar">
+    <ul>
+        <li>Sobre nosotros</li>
+        <li>Nuestros proyectos</li>
+        <li>Contáctanos</li>
+    </ul>
+    <button id="close-sidebar">
+        x
+        </span>
+    </button>
+</div>
+
+<main>
+    <section class="project">
+        <div class="project-container">
+            <div class="project__info">
+                <h2 class="project__title"></h2>
+                <div class="project__title--line"></div>
+                <p class="project__description"></p>
+            </div>
+
+            <div class="project__image">
+                <img src="" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="project__technologies">
+        <h3>Technologies</h3>
+        <ul class="technologies__list"></ul>
+    </section>
+    <section class="features">
+
+        <div class="features__text">
+            <h3></h3>
+            <ul class="features__list">
+                <!--
+                <li></li>
+                <li></li>
+                -->
+            </ul>
+        </div>
+        <div id="carousel-1" class="features__items carousel" role="region" aria-labelledby="carousel-1-title">
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__social">
+            <h2 class="footer__social-title">Social Media</h2>
+            <div class="footer__social-icons">
+                <a
+                        aria-label="enlace a pagina de facebook"
+                        rel="noopener noreeferer"
+                        href="https://www.facebook.com/"
+                >
+                    <img src="./src/assets/icons/facebook.svg" alt="Facebook" />
+                </a>
+                <a
+                        aria-label="enlace a pagina de twitter"
+                        rel="noopener noreeferer"
+                        href="https://www.facebook.com/"
+                >
+                    <img src="./src/assets/icons/twitter.svg" alt="Instagram" />
+                </a>
+                <a
+                        aria-label="enlace a pagina de instagram"
+                        rel="noopener noreeferer"
+                        href="https://www.facebook.com/"
+                >
+                    <img src="./src/assets/icons/instagram.svg" alt="Twitter" />
+                </a>
+            </div>
+        </div>
+        <div class="footer__contact">
+            <h2 class="footer__contact-title">Contáctenos</h2>
+            <div class="footer__contact-info">
+                <div class="footer__contact-info-item">
+                    <a href="tel:+51900378571">
+                        <img src="./src/assets/icons/phone.svg" alt="Phone" />
+                        <span>+51 900 378 571</span>
+                    </a>
+                </div>
+                <div class="footer__contact-info-item">
+                    <a
+                            href="https://www.google.com/maps/search/?api=1&query=Juan+Mejia+Baca+Street,+San+Isidro,+Lima"
+                            target="_blank"
+                    >
+                        <img src="./src/assets/icons/location.svg" alt="Location" />
+                        <span>Juan Mejia Baca Street, San Isidro, Lima</span>
+                    </a>
+                </div>
+                <div class="footer__contact-info-item">
+                    <a href="mailto:techsoftwareinnovations@gmail.com">
+                        <img src="./src/assets/icons/email.svg" alt="Email" />
+                        <span>techsoftwareinnovations@gmail.com</span>
+                    </a>
+                </div>
+            </div>
+            <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.252047376827!2d-77.0130629!3d-12.0948899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8783131e0b3%3A0xc84cb489c5fadb0f!2sC.%20Juan%20Mejia%20Baca%2C%20San%20Isidro%2015036!5e0!3m2!1ses!2spe!4v1736288382352!5m2!1ses!2spe"
+                    height="175"
+                    width="100%"
+                    style="border: 0; margin-top: 10px"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+            >
+            </iframe>
+        </div>
+        <div class="footer__legal">
+            <h2 class="footer__legal-title">Privacidad y Legal</h2>
+            <div class="footer__legal-info">
+                <div class="footer__legal-info-item">
+                    <img src="./src/assets/icons/double-arrow.svg" alt="arrow" />
+                    <span href="#">Privacy Policy</span>
+                </div>
+                <div class="footer__legal-info-item">
+                    <img src="./src/assets/icons/double-arrow.svg" alt="arrow" />
+                    <span href="#">Terms and Conditions</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p class="copyright__content">
+            Copyright © 2025 TechSoftware Innovations. All rights reserved.
+        </p>
+    </div>
+</footer>
+<script type="module" src="/src/main.js"></script>
+<script type="module" src="/src/services/project.js"></script>
+</body>
+</html>
