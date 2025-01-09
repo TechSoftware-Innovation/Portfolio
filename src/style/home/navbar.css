@@ -92,7 +92,7 @@ li:hover {
   color: white;
   z-index: 1;        
   padding: 20px;
-  margin-top: -50px;
+  margin-top: -10px;
 }
 
 .home-information-content h2{
@@ -176,7 +176,7 @@ li:hover {
   }
   .home-information-content {
     width: 70%;
-    margin-top: -40px;
+    margin-top: -20px;
   }
 }
 
@@ -194,8 +194,11 @@ li:hover {
   }
   .home-information-content {
     width: 80%;
-    margin-top: -30px;
   }
+  .home-information-content h1 {
+    font-size: 5rem;
+  }
+
 }
 
 @media (max-width: 768px) {
@@ -210,7 +213,10 @@ li:hover {
 
   .home-information-content {
     width: 90%;
-    margin-top: -20px;
+    margin-top: -30px;
+  }
+  .home-information-content h1 {
+    font-size: 4rem;
   }
   .home-information-content h2{
     width: 80%;
@@ -229,6 +235,13 @@ li:hover {
   }
   .home-information-content {
     width: 100%;
-    margin-top: -10px;
+    margin-top: -50px;
+  }
+  .home-information-content h1 {
+    font-size: 3rem;
+  }
+  .home-information-content h2{
+    font-size: 1.5rem;
+    width: 90%;
   }
 }
