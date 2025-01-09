@@ -58,7 +58,7 @@ li:hover {
   overflow: hidden;
   display: flex;
   justify-content: center; 
-  align-items: center;    
+  align-items: center;  
 }
 
 .background-video {
@@ -92,6 +92,7 @@ li:hover {
   color: white;
   z-index: 1;        
   padding: 20px;
+  margin-top: -50px;
 }
 
 .home-information-content h2{
@@ -175,6 +176,7 @@ li:hover {
   }
   .home-information-content {
     width: 70%;
+    margin-top: -40px;
   }
 }
 
@@ -192,6 +194,7 @@ li:hover {
   }
   .home-information-content {
     width: 80%;
+    margin-top: -30px;
   }
 }
 
@@ -207,6 +210,7 @@ li:hover {
 
   .home-information-content {
     width: 90%;
+    margin-top: -20px;
   }
   .home-information-content h2{
     width: 80%;
@@ -225,5 +229,6 @@ li:hover {
   }
   .home-information-content {
     width: 100%;
+    margin-top: -10px;
   }
 }
