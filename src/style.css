@@ -39,7 +39,6 @@
   --carousel-pagination-btn-active-bg: #333;
 }
 
-
 body {
   height: 100dvh;
   position: relative;
@@ -76,6 +75,88 @@ a {
   width: 90%;
 }
 
+.toast {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 1000;
+  overflow: hidden;
+  padding: 1rem;
+  background-color: #fff;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-size: 1.2rem;
+  color: #000;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+
+  & .toast__icon {
+    border-radius: 50%;
+    padding: 5px;
+
+    & img {
+      width: 18px;
+      height: 18px;
+    }
+  }
+
+  & .toast__content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+
+    & h4 {
+      font-size: 1.1rem;
+      color: #232323;
+      font-weight: 500;
+    }
+
+    & span {
+      font-size: 0.9rem;
+      color: #233232;
+    }
+  }
+
+}
+
+.toast--error {
+  border-left: 5px solid #ff0000;
+  color: #fff;
+
+  & .toast__icon {
+    background-color: #ff0000;
+  }
+}
+
+.toast--success {
+  border-left: 5px solid #38c554;
+  color: #fff;
+
+  & .toast__icon {
+    background-color: #38c554;
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(calc(100% + 32px));
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+  }
+}
+
+
 /* for testing */
 .border {
   border: 1px solid red;
@@ -101,7 +182,8 @@ a {
   h6 {
     font-size: 0.75rem;
   }
-  p, span {
+  p,
+  span {
     font-size: 0.9rem;
   }
 }
