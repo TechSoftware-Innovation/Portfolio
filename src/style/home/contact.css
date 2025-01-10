@@ -115,10 +115,9 @@
       }
     }
 
-    & button[type="submit"] {
+    button[type="submit"] {
       margin-top: 10px;
       padding: 10px;
-      background-color: #151515;
       font-size: 1.1rem;
       letter-spacing: 0.5px;
       padding: 16px 0;
@@ -129,10 +128,22 @@
       font-weight: 500;
       transition: background-color 0.2s ease-in-out;
       text-transform: uppercase;
-
-      &:hover {
-        background-color: rgb(211, 176, 1);
-      }
+      background-color: #151515;
+    }
+    
+    .button-disabled {
+      background-color: gray !important;
+      cursor: not-allowed;
+      pointer-events: none;
+    }
+    
+    .button-enabled {
+      background-color: #151515;
+      cursor: pointer;
+    }
+    
+    button[type="submit"]:not(.button-disabled):hover {
+      background-color: rgb(211, 176, 1);
     }
   }
 }
