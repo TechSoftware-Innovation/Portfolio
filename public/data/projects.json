@@ -4,37 +4,37 @@
       "id": 1,
       "title": "Project 1",
       "description": "This is a project description",
-      "image": "./assets/images/project1.jpg"
+      "image": "./assets/images/banner__project-1.svg"
     },
     {
       "id": 2,
       "title": "Project 2",
       "description": "This is a project description",
-      "image": "./assets/images/project2.jpg"
+      "image": "./assets/images/banner__project-1.svg"
     },
     {
       "id": 3,
       "title": "Project 3",
       "description": "This is a project description",
-      "image": "./assets/images/project3.jpg"
+      "image": "./assets/images/banner__project-1.svg"
     },
     {
       "id": 4,
       "title": "Project 4",
       "description": "This is a project description",
-      "image": "./assets/images/project4.jpg"
+      "image": "./assets/images/banner__project-1.svg"
     },
     {
       "id": 5,
       "title": "Project 5",
       "description": "This is a project description",
-      "image": "./assets/images/project5.jpg"
+      "image": "./assets/images/banner__project-1.svg"
     },
     {
       "id": 6,
       "title": "Project 6",
       "description": "This is a project description",
-      "image": "./assets/images/project6.jpg"
+      "image": "./assets/images/banner__project-1.svg"
     }
   ],
   "full-page-project": [
