@@ -1,4 +1,5 @@
 import './style.css'
+import './scripts/index'
 
 const toggleButton = document.getElementById("toggle-button");
 const sidebar = document.querySelector(".sidebar");
