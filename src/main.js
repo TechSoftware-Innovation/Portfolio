@@ -79,7 +79,7 @@ async function loadProjects() {
       button.className = "projects-card-button";
       const link = document.createElement("a");
       link.href = `project.html?id=${project["id"]}`;
-      link.textContent = "Ver proyecto";
+      link.textContent = "View proyect";
       link.target = "";
       button.appendChild(link);
 
