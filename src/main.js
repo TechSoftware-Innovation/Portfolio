@@ -48,36 +48,37 @@ const projectsContainer = document.getElementById("carousel");
 
 async function loadProjects() {
   try {
-    const response = await fetch('./src/assets/data/projects.json');
+    const response = await fetch('/data/projects.json');
     const data = await response.json();
+    const projects = data["card-projects"];
     
-    data.projects.forEach(project => {
+    projects.forEach(project => {
       const card = document.createElement("article");
       card.className = "projects-card";
 
       const img = document.createElement("img");
       img.className = "projects-card-image";
-      img.src = project.image;
-      img.alt = `Image for ${project.name}`;
+      img.src = project["image"];
+      img.alt = `Image for ${project["title"]}`;
 
       const cardInfo = document.createElement("div");
       cardInfo.className = "projects-card-info";
 
       const title = document.createElement("h4");
       title.className = "projects-card-title";
-      title.textContent = project.name;
+      title.textContent = project["title"];
 
       const divider = document.createElement("hr");
       divider.className = "projects-card-divider";
 
       const description = document.createElement("h6");
       description.className = "projects-card-description";
-      description.textContent = project.description;
+      description.textContent = project["description"];
 
       const button = document.createElement("button");
       button.className = "projects-card-button";
       const link = document.createElement("a");
-      link.href = project.link;
+      link.href = `project.html?id=${project["id"]}`;
       link.textContent = "Ver proyecto";
       link.target = "";
       button.appendChild(link);
