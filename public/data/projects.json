@@ -2,15 +2,15 @@
   "card-projects": [
     {
       "id": 1,
-      "title": "Project 1",
-      "description": "This is a project description",
-      "image": "./assets/images/banner__project-1.svg"
+      "title": "GottaGoFast",
+      "description": "Project developed using Flutter for the frontend and C# for the backend, designed to simplify car rentals.",
+      "image": "./assets/images/project1.jpg"
     },
     {
       "id": 2,
-      "title": "Project 2",
-      "description": "This is a project description",
-      "image": "./assets/images/banner__project-1.svg"
+      "title": "BookFlow",
+      "description": "A project built with Angular and Spring Boot that connects authors, publishers, and readers to deliver an engaging and convenient reading experience.",
+      "image": "./assets/images/project2.jpg"
     },
     {
       "id": 3,
@@ -52,25 +52,21 @@
   "full-page-project": [
     {
       "id": 1,
-      "title": "Project 1",
-      "description": "This is a project description and it is a very long description that will be displayed in the project page. This is a project description and it is a very long description that will be displayed in the project page. This is a project description and it is a very long description that will be displayed in the project page. This is a project description and it is a very long description that will be displayed in the project page.",
-      "image": "./assets/images/banner__project-1.svg",
+      "title": "GottaGoFast",
+      "description": "A project developed using Flutter for the frontend and C# for the backend, designed to streamline car rentals with speed and convenience. The app provides an intuitive user interface and robust backend functionality to ensure a seamless booking experience.",
+      "image": "./assets/images/banner__project-1.jpg",
       "technologies": [
         {
-          "name": "React",
-          "icon": "./assets/images/react-icon.svg"
+          "name": "Flutter",
+          "icon": "./assets/images/flutter-icon.jpg"
         },
         {
-          "name": "Nest",
-          "icon": "./assets/images/nest-icon.svg"
+          "name": "c#",
+          "icon": "./assets/images/csharp-icon.jpg"
         },
         {
           "name": "MySQL",
-          "icon": "./assets/images/mysql-icon.svg"
-        },
-        {
-          "name": "Kubernetes",
-          "icon": "./assets/images/kubernetes-icon.svg"
+          "icon": "./assets/images/mysql-icon.png"
         }
       ],
       "features": {
@@ -78,18 +74,58 @@
         "items": [
           {
             "title": "Feature 1",
-            "description": "This is a feature description",
-            "image": "./assets/images/feature__item-1.svg"
+            "description": "Vehicle Search and Filters",
+            "image": "./assets/images/feature_p1_item1.jpg"
           },
           {
             "title": "Feature 2",
-            "description": "This is a feature description",
-            "image": "./assets/images/feature__item-1.svg"
+            "description": "Real-Time Availability",
+            "image": "./assets/images/feature_p1_item2.jpg"
           },
           {
             "title": "Feature 3",
-            "description": "This is a feature description",
-            "image": "./assets/images/feature__item-1.svg"
+            "description": "Secure Booking Management",
+            "image": "./assets/images/feature_p1_item3.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "title": "BookFlow",
+      "description": "A project built with Angular for the frontend and Spring Boot for the backend, designed to connect authors, publishers, and readers in a dynamic and engaging way. The platform enhances the reading experience with innovative features and a vast library of content.",
+      "image": "./assets/images/banner__project-2.jpg",
+      "technologies": [
+        {
+          "name": "Angular",
+          "icon": "./assets/images/angular-icon.png"
+        },
+        {
+          "name": "Springboot",
+          "icon": "./assets/images/spring-icon.png"
+        },
+        {
+          "name": "MySQL",
+          "icon": "./assets/images/mysql-icon.png"
+        }
+      ],
+      "features": {
+        "title": "Features",
+        "items": [
+          {
+            "title": "Feature 1",
+            "description": "Virtual Book Clubs",
+            "image": "./assets/images/feature_p2_item1.jpg"
+          },
+          {
+            "title": "Feature 2",
+            "description": "Author Events",
+            "image": "./assets/images/feature_p2_item2.jpg"
+          },
+          {
+            "title": "Feature 3",
+            "description": "Premium Content",
+            "image": "./assets/images/feature_p2_item3.jpg"
           }
         ]
       }
