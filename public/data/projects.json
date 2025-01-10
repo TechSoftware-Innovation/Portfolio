@@ -4,13 +4,13 @@
       "id": 1,
       "title": "GottaGoFast",
       "description": "Project developed using Flutter for the frontend and C# for the backend, designed to simplify car rentals.",
-      "image": "./assets/images/project1.jpg"
+      "image": "./assets/images/projects/gottagofast/project1.jpg"
     },
     {
       "id": 2,
       "title": "BookFlow",
       "description": "A project built with Angular and Spring Boot that connects authors, publishers, and readers to deliver an engaging and convenient reading experience.",
-      "image": "./assets/images/project2.jpg"
+      "image": "./assets/images/projects/bookflow/project2.jpg"
     },
     {
       "id": 3,
@@ -28,13 +28,13 @@
       "id": 5,
       "title": "Project 5",
       "description": "This is a project description",
-      "image": "./assets/images/banner__project-1.svg"
+      "image": "./assets/images/projects/banner__project-1.svg"
     },
     {
       "id": 6,
       "title": "Project 6",
       "description": "This is a project description",
-      "image": "./assets/images/banner__project-1.svg"
+      "image": "./assets/images/projects/banner__project-1.svg"
     },
     {
       "id": 7,
@@ -54,19 +54,19 @@
       "id": 1,
       "title": "GottaGoFast",
       "description": "A project developed using Flutter for the frontend and C# for the backend, designed to streamline car rentals with speed and convenience. The app provides an intuitive user interface and robust backend functionality to ensure a seamless booking experience.",
-      "image": "./assets/images/banner__project-1.jpg",
+      "image": "./assets/images/projects/gottagofast/banner__project-1.jpg",
       "technologies": [
         {
           "name": "Flutter",
-          "icon": "./assets/images/flutter-icon.jpg"
+          "icon": "./assets/icons/flutter-icon.jpg"
         },
         {
           "name": "c#",
-          "icon": "./assets/images/csharp-icon.jpg"
+          "icon": "./assets/icons/csharp-icon.jpg"
         },
         {
           "name": "MySQL",
-          "icon": "./assets/images/mysql-icon.png"
+          "icon": "./assets/icons/mysql-icon.svg"
         }
       ],
       "features": {
@@ -75,17 +75,17 @@
           {
             "title": "Feature 1",
             "description": "Vehicle Search and Filters",
-            "image": "./assets/images/feature_p1_item1.jpg"
+            "image": "./assets/images/projects/gottagofast/feature_p1_item1.jpg"
           },
           {
             "title": "Feature 2",
             "description": "Real-Time Availability",
-            "image": "./assets/images/feature_p1_item2.jpg"
+            "image": "./assets/images/projects/gottagofast/feature_p1_item2.jpg"
           },
           {
             "title": "Feature 3",
             "description": "Secure Booking Management",
-            "image": "./assets/images/feature_p1_item3.jpg"
+            "image": "./assets/images/projects/gottagofast/feature_p1_item3.jpg"
           }
         ]
       }
@@ -94,19 +94,19 @@
       "id": 2,
       "title": "BookFlow",
       "description": "A project built with Angular for the frontend and Spring Boot for the backend, designed to connect authors, publishers, and readers in a dynamic and engaging way. The platform enhances the reading experience with innovative features and a vast library of content.",
-      "image": "./assets/images/banner__project-2.jpg",
+      "image": "./assets/images/projects/bookflow/banner__project-2.jpg",
       "technologies": [
         {
           "name": "Angular",
-          "icon": "./assets/images/angular-icon.png"
+          "icon": "./assets/icons/angular-icon.svg"
         },
         {
           "name": "Springboot",
-          "icon": "./assets/images/spring-icon.png"
+          "icon": "./assets/icons/spring-boot-icon.svg"
         },
         {
           "name": "MySQL",
-          "icon": "./assets/images/mysql-icon.png"
+          "icon": "./assets/icons/mysql-icon.svg"
         }
       ],
       "features": {
@@ -115,17 +115,17 @@
           {
             "title": "Feature 1",
             "description": "Virtual Book Clubs",
-            "image": "./assets/images/feature_p2_item1.jpg"
+            "image": "./assets/images/projects/bookflow/feature_p2_item1.jpg"
           },
           {
             "title": "Feature 2",
             "description": "Author Events",
-            "image": "./assets/images/feature_p2_item2.jpg"
+            "image": "./assets/images/projects/bookflow/feature_p2_item2.jpg"
           },
           {
             "title": "Feature 3",
             "description": "Premium Content",
-            "image": "./assets/images/feature_p2_item3.jpg"
+            "image": "./assets/images/projects/bookflow/feature_p2_item3.jpg"
           }
         ]
       }
@@ -138,15 +138,15 @@
       "technologies": [
         {
           "name": "Spring Boot",
-          "icon": "./assets/images/spring-boot-icon.svg"
+          "icon": "./assets/icons/spring-boot-icon.svg"
         },
         {
           "name": "MySQL",
-          "icon": "./assets/images/mysql-icon.svg"
+          "icon": "./assets/icons/mysql-icon.svg"
         },
         {
           "name": "Angular",
-          "icon": "./assets/images/angular-icon.svg"
+          "icon": "./assets/icons/angular-icon.svg"
         }
       ],
       "features": {
@@ -178,15 +178,15 @@
       "technologies": [
         {
           "name": "Spring Boot",
-          "icon": "./assets/images/spring-boot-icon.svg"
+          "icon": "./assets/icons/spring-boot-icon.svg"
         },
         {
           "name": "Kotlin",
-          "icon": "./assets/images/kotlin-icon.svg"
+          "icon": "./assets/icons/kotlin-icon.svg"
         },
         {
           "name": "Jetpack Compose",
-          "icon": "./assets/images/jetpack-compose-icon.svg"
+          "icon": "./assets/icons/jetpack-compose-icon.svg"
         }
       ],
       "features": {
