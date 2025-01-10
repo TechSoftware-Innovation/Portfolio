@@ -22,11 +22,11 @@
   cursor: pointer;
 }
 
- h2,
-li {
+h2, li {
   color: var(--secondary);
   font-weight: normal;
 }
+
 
 li:hover {
   cursor: pointer;
@@ -39,7 +39,7 @@ li:hover {
   gap: 30px;
   list-style: none;
   margin-right: 50px;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .home-information-content h1 {
@@ -105,6 +105,10 @@ li:hover {
   align-items: center;
 }
 
+.nav-logo img {
+  margin: 10px;
+}
+
 .nav-logo h2 {
   font-weight: bold;
 }
@@ -117,7 +121,8 @@ li:hover {
 }
 
 .nav-sections li {
-  font-family: "Roboto", sans-serif;;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter; 
 }
 
 .sidebar {
@@ -142,18 +147,35 @@ li:hover {
 }
 
 .sidebar li {
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
   font-size: 1.5rem;
   margin-bottom: 15px;
   cursor: pointer;
 }
 
 .sidebar #close-sidebar {
-  background: none;
+  background: rgba(0, 0, 0, 0.1);
   border: none;
   color: var(--secondary);
-  font-size: 1.5rem;
-  align-self: flex-start;
+  font-size: 2rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
+}
+
+.sidebar #close-sidebar:hover {
+  background: rgba(0, 0, 0, 0.6);
+  transform: scale(1.1);
+}
+
+.sidebar #close-sidebar span {
+  display: block;
+  font-weight: bold;
 }
 
 .overlay {
@@ -172,12 +194,6 @@ li:hover {
 .overlay.active {
   opacity: 1;
   visibility: visible;
-}
-
-@media (max-width: 1366px) {
-  .nav-sections {
-    font-size: 1.5rem;
-  }
 }
 
 @media (max-width: 1024px) {
