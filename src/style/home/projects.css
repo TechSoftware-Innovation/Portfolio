@@ -94,7 +94,16 @@
     color: #ddd;
     font-weight: 300;
     margin: 1rem 0;
+    /* Limit the number of lines to 4 */
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+    -webkit-box-orient: vertical;
+    box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
+
 
 .projects-card-button{
     padding: 0.5rem 1rem;
