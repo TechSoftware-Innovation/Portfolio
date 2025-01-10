@@ -22,7 +22,7 @@
   cursor: pointer;
 }
 
-h2,
+ h2,
 li {
   color: var(--secondary);
   font-weight: normal;
@@ -42,26 +42,63 @@ li:hover {
   font-size: 2rem;
 }
 
-h1 {
+.home-information-content h1 {
   color: var(--primary);
+  font-size: 7rem;
 }
 
-.home-information-content {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
+.home-information-content h2 {
+  font-size: 2.5rem;
 }
 
 .home-section-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; 
+  overflow: hidden;
   display: flex;
-  justify-content: space-evenly;
-  margin: auto;
-  margin-top: 150px;
+  justify-content: center; 
+  align-items: center;  
 }
 
-.home-information-content:nth-child(1) {
-  width: 30%;
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  z-index: -2;      
 }
+
+.home-section-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to top right,
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)
+  );
+  z-index: -1; 
+}
+
+.home-information-content {
+  position: relative;
+  width: 70%;
+  color: white;
+  z-index: 1;        
+  padding: 20px;
+  margin-top: -4%
+}
+
+.home-information-content h2{
+  width: 70%;
+}
+
 
 .nav-logo {
   display: flex;
@@ -79,13 +116,17 @@ h1 {
   padding: 10px 20px;
 }
 
+.nav-sections li {
+  font-family: "Roboto", sans-serif;;
+}
+
 .sidebar {
   position: fixed;
   top: 0;
   left: -100%;
   width: 250px;
   height: 100%;
-  background-color: #2c3e50;
+  background-color:  #333;
   color: var(--secondary);
   transition: left 0.3s ease-in-out;
   display: flex;
@@ -151,20 +192,19 @@ h1 {
   #toggle-button {
     display: block;
   }
+  .home-information-content {
+    width: 80%;
+  }
+  .home-information-content h2 {
+    width: 80%;
+  }
+  .home-information-content h1 {
+    font-size: 6rem;
+  }
+
 }
 
 @media (max-width: 768px) {
-  h1 {
-    font-size: 2rem;
-  }
-
-  h2 {
-    font-size: 1rem;
-  }
-
-  .home-information-content:nth-child(1) {
-    width: 60%;
-  }
 
   .nav-sections {
     font-size: 1rem;
@@ -173,6 +213,21 @@ h1 {
   .nav-logo {
     font-size: 1rem;
   }
+
+  .home-information-content {
+    width: 90%;
+  }
+  .home-information-content h2 {
+    width: 90%;
+    font-size: 2rem;
+  }
+  .home-information-content h1 {
+    font-size: 4rem;
+  }
+  .home-information-content h2{
+    width: 80%;
+  }
+  
 }
 
 @media (max-width: 480px) {
@@ -180,5 +235,17 @@ h1 {
     flex-direction: column;
     font-size: 0.5rem;
     margin-left: 10px;
+  }
+  .nav-logo img{
+    display: none;
+  }
+  .home-information-content {
+    width: 100%;
+  }
+  .home-information-content h1 {
+    font-size: 3rem;
+  }
+  .home-information-content h2{
+    font-size: 1.5rem;
   }
 }

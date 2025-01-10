@@ -1,0 +1,86 @@
+{
+  "card-projects": [
+    {
+      "id": 1,
+      "title": "Project 1",
+      "description": "This is a project description",
+      "image": "./assets/images/banner__project-1.svg"
+    },
+    {
+      "id": 2,
+      "title": "Project 2",
+      "description": "This is a project description",
+      "image": "./assets/images/banner__project-1.svg"
+    },
+    {
+      "id": 3,
+      "title": "Project 3",
+      "description": "This is a project description",
+      "image": "./assets/images/banner__project-1.svg"
+    },
+    {
+      "id": 4,
+      "title": "Project 4",
+      "description": "This is a project description",
+      "image": "./assets/images/banner__project-1.svg"
+    },
+    {
+      "id": 5,
+      "title": "Project 5",
+      "description": "This is a project description",
+      "image": "./assets/images/banner__project-1.svg"
+    },
+    {
+      "id": 6,
+      "title": "Project 6",
+      "description": "This is a project description",
+      "image": "./assets/images/banner__project-1.svg"
+    }
+  ],
+  "full-page-project": [
+    {
+      "id": 1,
+      "title": "Project 1",
+      "description": "This is a project description and it is a very long description that will be displayed in the project page. This is a project description and it is a very long description that will be displayed in the project page. This is a project description and it is a very long description that will be displayed in the project page. This is a project description and it is a very long description that will be displayed in the project page.",
+      "image": "./assets/images/banner__project-1.svg",
+      "technologies": [
+        {
+          "name": "React",
+          "icon": "./assets/images/react-icon.svg"
+        },
+        {
+          "name": "Nest",
+          "icon": "./assets/images/nest-icon.svg"
+        },
+        {
+          "name": "MySQL",
+          "icon": "./assets/images/mysql-icon.svg"
+        },
+        {
+          "name": "Kubernetes",
+          "icon": "./assets/images/kubernetes-icon.svg"
+        }
+      ],
+      "features": {
+        "title": "Features",
+        "items": [
+          {
+            "title": "Feature 1",
+            "description": "This is a feature description",
+            "image": "./assets/images/feature__item-1.svg"
+          },
+          {
+            "title": "Feature 2",
+            "description": "This is a feature description",
+            "image": "./assets/images/feature__item-1.svg"
+          },
+          {
+            "title": "Feature 3",
+            "description": "This is a feature description",
+            "image": "./assets/images/feature__item-1.svg"
+          }
+        ]
+      }
+    }
+  ]
+}
