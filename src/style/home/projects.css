@@ -8,6 +8,7 @@
     text-align: center;
     font-size: 2.5rem;
     font-weight: bold;
+    color: #efbf04;
 }
 
 .projects-carousel {
@@ -59,9 +60,9 @@
 .projects-card-image {
     flex: 0 0 45%;
     width: 100%;
-    height: 300px;
     max-width: 10rem;
     aspect-ratio: 1 / 1;
+    object-fit: cover;
     border-radius: 0.5rem;
     background: #333;
 }
