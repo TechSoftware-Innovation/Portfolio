@@ -73,8 +73,9 @@
 
 .project__image img {
     width: 100%;
-    max-width: 600px;
-    height: auto;
+    max-width: 500px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
     border-radius: var(--border-radius);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }

@@ -14,15 +14,15 @@
     },
     {
       "id": 3,
-      "title": "Project 3",
-      "description": "This is a project description",
-      "image": "./assets/images/banner__project-1.svg"
+      "title": "AgroConnect",
+      "description": "A web-based management system designed for guinea pig farms. It enables breeders to track expenses, manage resources, and schedule expert consultations. The backend was built with Spring Boot, while the frontend leverages Angular for an interactive user experience.",
+      "image": "./assets/images/projects/agroconnect/project-banner-3.png"
     },
     {
       "id": 4,
-      "title": "Project 4",
-      "description": "This is a project description",
-      "image": "./assets/images/banner__project-1.svg"
+      "title": "AgroSupport",
+      "description": "A mobile application developed to connect farmers with expert advisors. It enables users to schedule consultations, view expert posts, personalize their profiles, and manage their consultation history. The backend was implemented with Spring Boot, and the mobile frontend was developed in Kotlin using Jetpack Compose.",
+      "image": "./assets/images/projects/agrosupport/project-banner-4.png"
     },
     {
       "id": 5,
@@ -35,6 +35,18 @@
       "title": "Project 6",
       "description": "This is a project description",
       "image": "./assets/images/banner__project-1.svg"
+    },
+    {
+      "id": 7,
+      "title": "AlquilaFacil",
+      "description": "An application for searching and renting event spaces, developed using Flutter for the frontend, .NET Core for the backend, and MySQL as the database. Firebase services were integrated for authentication, along with additional services for image management and PayPal for handling payments.",
+      "image": "https://media.discordapp.net/attachments/1320542364007403594/1326712838525419550/App-Mobile.png?ex=67806d1d&is=677f1b9d&hm=1e3a5c7d5b393b071177ae6038fd2d2a70a55b90de638f3ec8e551e14a8839ee&=&format=webp&quality=lossless&width=561&height=1282"
+    },
+    {
+      "id": 8,
+      "title": "ArtCollab",
+      "description": "An application designed for collaboration between artists and writers. Registered users can explore popular works by genre and, if they are artists or writers, earn commissions for each published piece.",
+      "image": "https://media.discordapp.net/attachments/1320542364007403594/1326713437643866122/Populares.png?ex=67806dac&is=677f1c2c&hm=b308af8644d22e4893070c59e5cd1c5ec982cb2e361f8f8175ac9c1a1271d7a2&=&format=webp&quality=lossless&width=1097&height=1282"
     }
   ],
   "full-page-project": [
@@ -78,6 +90,86 @@
             "title": "Feature 3",
             "description": "This is a feature description",
             "image": "./assets/images/feature__item-1.svg"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "title": "AgroConnect",
+      "description": "AgroConnect is a comprehensive web-based system designed for efficient management of guinea pig farms. It allows breeders to seamlessly track operational expenses, manage resources, and schedule consultations with sector experts. The backend is powered by Spring Boot, while the interactive frontend is built with Angular, ensuring an optimized user experience. This project follows Domain-Driven Design (DDD) principles, ensuring a robust, scalable system for both current and future use cases.",
+      "image": "./assets/images/projects/agroconnect/project-banner-3.png",
+      "technologies": [
+        {
+          "name": "Spring Boot",
+          "icon": "./assets/images/spring-boot-icon.svg"
+        },
+        {
+          "name": "MySQL",
+          "icon": "./assets/images/mysql-icon.svg"
+        },
+        {
+          "name": "Angular",
+          "icon": "./assets/images/angular-icon.svg"
+        }
+      ],
+      "features": {
+        "title": "Key Features",
+        "items": [
+          {
+            "title": "Expense Tracking",
+            "description": "Easily track expenses related to guinea pig farming, enabling better financial management.",
+            "image": "./assets/images/projects/agroconnect/project-3-feature-1.png"
+          },
+          {
+            "title": "Resource Management",
+            "description": "Streamlined management of resources, including food and care items for the guinea pigs.",
+            "image": "./assets/images/projects/agroconnect/project-3-feature-2.png"
+          },
+          {
+            "title": "Consultation Scheduling",
+            "description": "Schedule consultations with expert advisors, ensuring timely advice for farm optimization.",
+            "image": "./assets/images/projects/agroconnect/project-3-feature-3.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "title": "AgroSupport",
+      "description": "AgroSupport is a mobile application designed to connect guinea pig breeders with expert advisors. It allows users to schedule consultations, view posts from experts, personalize their profiles, and manage their consultation history. The backend is developed using Spring Boot, while the mobile frontend leverages Kotlin and Jetpack Compose to provide a seamless and user-friendly experience on Android devices. AgroSupport integrates real-time scheduling and communication, promoting growth and development for guinea pig farmers.",
+      "image": "./assets/images/projects/agrosupport/project-image-4.png",
+      "technologies": [
+        {
+          "name": "Spring Boot",
+          "icon": "./assets/images/spring-boot-icon.svg"
+        },
+        {
+          "name": "Kotlin",
+          "icon": "./assets/images/kotlin-icon.svg"
+        },
+        {
+          "name": "Jetpack Compose",
+          "icon": "./assets/images/jetpack-compose-icon.svg"
+        }
+      ],
+      "features": {
+        "title": "Key Features",
+        "items": [
+          {
+            "title": "Consultation Scheduling",
+            "description": "Users can easily schedule and manage consultations with expert advisors directly within the app.",
+            "image": "./assets/images/projects/agrosupport/project-4-feature-1.png"
+          },
+          {
+            "title": "Expert Posts",
+            "description": "Stay informed with the latest posts and articles shared by industry experts to enhance farm operations.",
+            "image": "./assets/images/projects/agrosupport/project-4-feature-2.png"
+          },
+          {
+            "title": "Profile Customization",
+            "description": "Farmers and experts can personalize their profiles to improve engagement and networking.",
+            "image": "./assets/images/projects/agrosupport/project-4-feature-3.png"
           }
         ]
       }
