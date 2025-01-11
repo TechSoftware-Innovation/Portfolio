@@ -26,15 +26,15 @@
     },
     {
       "id": 5,
-      "title": "Project 5",
-      "description": "This is a project description",
-      "image": "./assets/images/projects/banner__project-1.svg"
+      "title": "AidManager Web",
+      "description": "A web application designed to manage NGO projects efficiently, offering tools for event planning, real-time analytics, inventory tracking, and comprehensive reporting, all accessible from any device with a browser.",
+      "image": "./assets/images/projects/aidmanager-web/card-banner.jpeg"
     },
     {
       "id": 6,
-      "title": "Project 6",
-      "description": "This is a project description",
-      "image": "./assets/images/projects/banner__project-1.svg"
+      "title": "AidManager Mobile",
+      "description": "A mobile tool designed to streamline NGO project management by analyzing event data, identifying improvement opportunities, and providing inventory and attendance reports. It also helps plan future events using previously registered information.",
+      "image": "./assets/images/projects/aidmanager-mobile/card-image.jpeg"
     },
     {
       "id": 7,
@@ -206,6 +206,86 @@
             "title": "Profile Customization",
             "description": "Farmers and experts can personalize their profiles to improve engagement and networking.",
             "image": "./assets/images/projects/agrosupport/project-4-feature-3.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "title": "AidManager Web",
+      "description": "A web application designed to manage NGO projects efficiently, offering tools for event planning, real-time analytics, inventory tracking, and comprehensive reporting, all accessible from any device with a browser.",
+      "image": "./assets/images/projects/aidmanager-web/principal-image.jpeg",
+      "technologies": [
+        {
+          "name": "Vue",
+          "icon": "./assets/icons/vue-icon.png"
+        },
+        {
+          "name": "c#",
+          "icon": "./assets/icons/csharp-icon.jpg"
+        },
+        {
+          "name": "MySQL",
+          "icon": "./assets/icons/mysql-icon.svg"
+        }
+      ],
+      "features": {
+        "title": "Key Features",
+        "items": [
+          {
+            "title": "Project Proposal Submission",
+            "description": "Empower team members of charitable organizations to propose new projects, enabling collaborative planning and streamlined approval processes.",
+            "image": "./assets/images/projects/aidmanager-web/project-slide-1.jpeg"
+          },
+          {
+            "title": "Analytics with Visual Insights",
+            "description": "Utilize interactive charts to gain a clear view of financial metrics, beneficiary impact, and event performance, driving data-informed decisions.",
+            "image": "./assets/images/projects/aidmanager-web/project-slide-2.jpeg"
+          },
+          {
+            "title": "Task Scheduling Calendar",
+            "description": "Organize and assign tasks seamlessly with an integrated calendar, ensuring project members stay on track and meet deadlines efficiently.",
+            "image": "./assets/images/projects/aidmanager-web/project-slide-3.jpeg"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "title": "AidManager Mobile",
+      "description": "A mobile tool designed to streamline NGO project management by analyzing event data, identifying improvement opportunities, and providing inventory and attendance reports. It also helps plan future events using previously registered information.",
+      "image": "./assets/images/projects/aidmanager-mobile/principal-image.jpeg",
+      "technologies": [
+        {
+          "name": "Flutter",
+          "icon": "./assets/icons/flutter-icon.jpg"
+        },
+        {
+          "name": "c#",
+          "icon": "./assets/icons/csharp-icon.jpg"
+        },
+        {
+          "name": "MySQL",
+          "icon": "./assets/icons/mysql-icon.svg"
+        }
+      ],
+      "features": {
+        "title": "Key Features",
+        "items": [
+          {
+            "title": "Event Planning Assistant",
+            "description": "Easily organize and plan NGO events by leveraging historical data, ensuring optimized resource allocation and streamlined processes.",
+            "image": "./assets/images/projects/aidmanager-mobile/project-slide-1.jpeg"
+          },
+          {
+            "title": "Real-Time Event Insights",
+            "description": "Access real-time analytics on attendee engagement, inventory usage, and event performance to make informed decisions during ongoing events.",
+            "image": "./assets/images/projects/aidmanager-mobile/project-slide-2.jpeg"
+          },
+          {
+            "title": "Comprehensive Reports",
+            "description": "Generate detailed reports on inventory, attendance, and event outcomes to identify areas of improvement and ensure transparency for stakeholders.",
+            "image": "./assets/images/projects/aidmanager-mobile/project-slide-3.jpeg"
           }
         ]
       }

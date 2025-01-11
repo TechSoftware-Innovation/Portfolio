@@ -1,17 +1,47 @@
 import { ToastState } from "./enums/toast-state";
+import { $ } from "../utils/domUtils";
 
 document.addEventListener("DOMContentLoaded", function () {
-  const form = document.querySelector(".contact__form");
-
-  document.querySelector('input[name="first-name"]').value = "John";
-  document.querySelector('input[name="last-name"]').value = "Doe";
-  document.querySelector('input[name="phone"]').value = "123456789";
-  document.querySelector('input[name="email"]').value = "john.doe@example.com";
-  document.querySelector('textarea[name="message"]').value =
-    "Hello, I have a question about your services.";
-
-  form.addEventListener("submit", submitForm);
+  const form = $(".contact__form");
+  form.addEventListener("submit", submitContactForm);
 });
+
+async function submitContactForm(event) {
+  event.preventDefault();
+  const formData = getFormData(event.target);
+
+  disabledSubmitButton(true);
+  try {
+    const response = await sendContactFormData(formData);
+
+    if (response.ok) {
+      createToast(ToastState.SUCCESS);
+    } else {
+      throw new Error("Failed to submit form");
+    }
+  } catch (error) {
+    console.error(error);
+    disabledSubmitButton(false);
+    createToast(ToastState.ERROR);
+  } finally {
+    disabledSubmitButton(false);
+  }
+
+  console.log("Form data: ", formData);
+}
+
+async function sendContactFormData(formData) {
+  const googleScriptURL = import.meta.env.VITE_GOOGLE_SCRIPT_URL;
+  
+  return await fetch(googleScriptURL, {
+    redirect: "follow",
+    method: "POST",
+    headers: {
+      "Content-Type": "text/plain;charset=utf-8",
+    },
+    body: JSON.stringify(formData),
+  });
+}
 
 function createToast(type = "error", duration = 3000) {
   const toastContainer = document.getElementById("toast");
@@ -52,57 +82,41 @@ function createToast(type = "error", duration = 3000) {
   }, duration);
 }
 
-async function submitForm(event) {
-  event.preventDefault();
-  const formData = getFormData();
-
-  disabledSubmitButton(true);
-
-  try {
-    const response = await simulateRequest(2000, false);
-    //console.log(response);
-    createToast(ToastState.SUCCESS);
-  } catch (error) {
-    console.error(error);
-    disabledSubmitButton(false);
-    createToast(ToastState.ERROR);
-  } finally {
-    disabledSubmitButton(false);
-  }
-
-  console.log("Form data: ", formData);
-}
-
 /**
- * 
- * @param {boolean} isDisabled 
+ * this function allows to enable or disable the submit button
+ * @param {boolean} isDisabled
  */
 function disabledSubmitButton(isDisabled) {
-  const submitBtn = document.querySelector(".contact__form button[type='submit']");
-  
+  const submitBtn = $(".contact__form button[type='submit']");
+
   if (isDisabled) {
     submitBtn.disabled = true;
-    submitBtn.classList.add('button-disabled');
-    submitBtn.classList.remove('button-enabled');
+    submitBtn.classList.add("button-disabled");
+    submitBtn.classList.remove("button-enabled");
   } else {
     submitBtn.disabled = false;
-    submitBtn.classList.remove('button-disabled');
-    submitBtn.classList.add('button-enabled');
+    submitBtn.classList.remove("button-disabled");
+    submitBtn.classList.add("button-enabled");
   }
 }
 
-
 function getFormData() {
-  const form = document.querySelector(".contact__form");
+  const form = $(".contact__form");
   const formData = new FormData(form);
   const data = Object.fromEntries(formData.entries());
+
+  data.name = `${data["first-name"]} ${data["last-name"]}`;
+  delete data["first-name"];
+  delete data["last-name"];
+
   return data;
 }
 
 /**
+ * this was created to simulate a request to the server
  * @param {number} time
- * @returns {Promise}
  * @param {boolean} hasFailed
+ * @returns {Promise}
  */
 function simulateRequest(time, hasFailed = false) {
   return new Promise((resolve, reject) => {
