@@ -27,7 +27,6 @@ async function submitContactForm(event) {
     disabledSubmitButton(false);
   }
 
-  console.log("Form data: ", formData);
 }
 
 async function sendContactFormData(formData) {
