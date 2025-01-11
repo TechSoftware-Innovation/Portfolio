@@ -209,6 +209,77 @@
           }
         ]
       }
+    },
+    {
+      "id": 7,
+      "title": "AlquilaFacil",
+      "description": "An application for searching and renting event spaces, developed using Flutter for the frontend, .NET Core for the backend, and MySQL as the database. Firebase services were integrated for authentication, along with additional services for image management and PayPal for handling payments.",
+      "image": "/public/assets/images/projects/alquilafacil/project-banner.png",
+      "technologies": [
+        {
+          "name": "Flutter",
+          "icon": "./assets/icons/flutter-icon.jpg"
+        },
+        {
+          "name": "c#",
+          "icon": "./assets/icons/csharp-icon.jpg"
+        },
+        {
+          "name": "MySQL",
+          "icon": "./assets/icons/mysql-icon.svg"
+        }
+      ],
+      "features": {
+        "title": "Key Features",
+        "items": [
+          {
+            "title": "Booking",
+            "description": "Reservations for spaces published in the application ",
+            "image": "./assets/images/projects/alquilafacil/booking.png"
+          },
+          {
+            "title": "Booking Managament",
+            "description": "Reservations management using a calendar for manage the reservations schedule",
+            "image": "./assets/images/projects/alquilafacil/booking-management.png"
+          },
+          {
+            "title": "Search spaces by filters",
+            "description": "Search space by your preferences like districts that you prefer or by capacity range or space type.",
+            "image": "./assets/images/projects/alquilafacil/search-by-filter.png"
+          },
+          {
+            "title": "Publish space",
+            "description": "Publish your space for users could see and make a reservation.",
+            "image": "./assets/images/projects/alquilafacil/publish-space.png"
+          },
+          {
+            "title": "Save space to favorites",
+            "description": "Save your favorite space for never lost it.",
+            "image": "./assets/images/projects/alquilafacil/save-favorites.jpeg"
+          },
+          {
+            "title": "See notifications",
+            "description": "See notifications when someone make a reservation for your own space or when you subscribe to premium plan.",
+            "image": "./assets/images/projects/alquilafacil/notifications.jpeg"
+          },
+          {
+            "title": "Premium plan",
+            "description": "Subscribe to premium plan for get more beneficts when you make a reservation for any space.",
+            "image": "./assets/images/projects/alquilafacil/premium-plan.png"
+          },
+          {
+            "title": "Payment",
+            "description": "Make a payment for your reservation using PayPal.",
+            "image": "./assets/images/projects/alquilafacil/payment.jpeg"
+          },
+          {
+            "title": "Make a review for the space",
+            "description": "Make a review for the space that you reserved.",
+            "image": "./assets/images/projects/alquilafacil/reviews.jpeg"
+          }
+
+        ]
+      }
     }
   ]
 }
