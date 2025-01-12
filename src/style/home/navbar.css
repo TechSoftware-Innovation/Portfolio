@@ -44,11 +44,12 @@ li:hover {
 
 .home-information-content h1 {
   color: var(--primary);
-  font-size: 7rem;
+  font-size: 5.5rem;
 }
 
 .home-information-content h2 {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
+  line-height: 1.5;
 }
 
 .home-section-container {
@@ -87,16 +88,21 @@ li:hover {
 }
 
 .home-information-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
   position: relative;
   width: 70%;
   color: white;
   z-index: 1;        
   padding: 20px;
-  margin-top: -4%
+  margin-top: -4%;
+  text-align: center;
 }
 
 .home-information-content h2{
-  width: 70%;
+  width: 90%;
 }
 
 
@@ -215,7 +221,7 @@ li:hover {
     width: 80%;
   }
   .home-information-content h1 {
-    font-size: 6rem;
+    font-size: 3.5rem;
   }
 
 }
