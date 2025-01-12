@@ -149,12 +149,13 @@
 }
 
 .copyright {
-  margin-top: 50px;
   color: #fff;
   text-align: center;
   font-weight: 500;
   padding: 16px 10px;
+  padding-top: 64px;
   white-space: wrap;
+  background-color: #151515;
 
   & > p {
     line-height: 1.65;

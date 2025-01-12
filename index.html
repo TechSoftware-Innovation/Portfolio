@@ -15,9 +15,15 @@
           <h2>TechSoftware Innovations</h2>
         </div>
         <ul class="nav-sections">
-          <li>About us</li>
-          <li>Our projects</li>
-          <li>Contact us</li>
+          <a href="#home">
+            <li>About us</li>
+          </a>
+           <a href="#projects"> 
+            <li>Our projects</li>
+           </a>
+          <a href="#contact">
+            <li>Contact us</li>
+          </a>
         </ul>
         <button id="toggle-button"> 
           <span class="material-symbols-outlined">menu</span>
@@ -26,9 +32,15 @@
       
       <div class="sidebar" id="sidebar">
         <ul>
-          <li>About us</li>
-          <li>Our projects</li>
-          <li>Contact us</li>
+          <a href="#home">
+            <li>About us</li>
+          </a>
+           <a href="#projects"> 
+            <li>Our projects</li>
+           </a>
+          <a href="#contact">
+            <li>Contact us</li>
+          </a>
         </ul>
         <button id="close-sidebar">
           <span>&times;</span>
@@ -36,7 +48,7 @@
       </div>
       
       <main class="main-content">
-        <section class="home-section-container">
+        <section id="home" class="home-section-container">
           <video autoplay muted loop class="background-video">
             <source src="./src/assets/video/banner.mp4" type="video/mp4">
             Your browser does not support the video tag.
@@ -48,7 +60,7 @@
              </h2>
           </div>
         </section>
-        <section class="projects">
+        <section id="projects" class="projects">
           <h1 class="projects-title">OUR PROJECTS</h1>
           <div class="projects-carousel">
             <button class="carousel-button left" id="prevBtn">←</button>
@@ -66,7 +78,7 @@
             <button class="carousel-button right" id="nextBtn">→</button>
           </div>
         </section>        
-        <section class="contact">
+        <section id="contact" class="contact">
           <div class="container">
             <div class="contact__left">
               <h1 class="contact__left-title">Let's Talk</h1>
@@ -157,21 +169,24 @@
             <a
                 aria-label="enlace a pagina de facebook"
                 rel="noopener noreeferer"
-                href="https://www.facebook.com/"
+                href="https://www.facebook.com/share/V91ujYeQGcXDNZqn/"
+                target="_blank"
             >
               <img src="./src/assets/icons/facebook.svg" alt="Facebook" />
             </a>
             <a
                 aria-label="enlace a pagina de twitter"
                 rel="noopener noreeferer"
-                href="https://www.facebook.com/"
+                href="https://x.com/TechsoftwareInn"
+                target="_blank"
             >
               <img src="./src/assets/icons/twitter.svg" alt="Instagram" />
             </a>
             <a
                 aria-label="enlace a pagina de instagram"
                 rel="noopener noreeferer"
-                href="https://www.facebook.com/"
+                href="https://www.instagram.com/techsoftwareinnovation?igsh=djMzNjFpOTYybnk1"
+                target="_blank"
             >
               <img src="./src/assets/icons/instagram.svg" alt="Twitter" />
             </a>
@@ -192,7 +207,16 @@
         target="_blank"
       >
         <img src="./src/assets/icons/location.svg" alt="Location" />
-        <span>Juan Mejia Baca Street, San Isidro, Lima</span>
+        <span>8233 Harding Avenue, Miami, Florida</span>
+      </a>
+    </div>
+    <div class="footer__contact-info-item">
+      <a
+        href="https://www.google.com/maps/search/?api=1&query=Juan+Mejia+Baca+Street,+San+Isidro,+Lima"
+        target="_blank"
+      >
+        <img src="./src/assets/icons/location.svg" alt="Location" />
+        <span>Calle Juan Mejia Baca, San Isidro, Lima, Perú</span>
       </a>
     </div>
     <div class="footer__contact-info-item">
@@ -225,6 +249,8 @@
     </div>
   </div>
 </div>
+</div>
+</footer>
 <div class="copyright">
   <p class="copyright__content">
     Copyright © 2025 TechSoftware Innovations. All rights reserved.

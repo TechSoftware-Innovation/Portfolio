@@ -39,7 +39,7 @@
         {
             "name": "Alquila Facil",
             "description": "An application for searching and renting event spaces, developed using Flutter for the frontend, .NET Core for the backend, and MySQL as the database. Firebase services were integrated for authentication, along with additional services for image management and PayPal for handling payments.",
-            "image": "https://media.discordapp.net/attachments/1320542364007403594/1326712838525419550/App-Mobile.png?ex=67806d1d&is=677f1b9d&hm=1e3a5c7d5b393b071177ae6038fd2d2a70a55b90de638f3ec8e551e14a8839ee&=&format=webp&quality=lossless&width=561&height=1282",
+            "image": "/public/assets/images/projects/alquilafacil/project-banner.png",
             "link": "https://www.google.com"
         },
         {
