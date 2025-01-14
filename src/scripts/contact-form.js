@@ -29,8 +29,12 @@ async function submitContactForm(event) {
 
 }
 
+// name=wqdwqd&email=dwqdq@qwd.com&phone=986321852&message=qwdqwdqw
+
 async function sendContactFormData(formData) {
   const googleScriptURL = import.meta.env.VITE_GOOGLE_SCRIPT_URL;
+
+  console.log(formData);
   
   return await fetch(googleScriptURL, {
     redirect: "follow",
@@ -38,7 +42,7 @@ async function sendContactFormData(formData) {
     headers: {
       "Content-Type": "text/plain;charset=utf-8",
     },
-    body: JSON.stringify(formData),
+    body: formData,
   });
 }
 
@@ -81,6 +85,8 @@ function createToast(type = "error", duration = 3000) {
   }, duration);
 }
 
+//name	email	phone	message
+
 /**
  * this function allows to enable or disable the submit button
  * @param {boolean} isDisabled
@@ -108,7 +114,14 @@ function getFormData() {
   delete data["first-name"];
   delete data["last-name"];
 
-  return data;
+  const orderedData = {
+    name: data.name,
+    email: data.email,
+    phone: data.phone,
+    message: data.message,
+  };
+
+  return new URLSearchParams(orderedData).toString();
 }
 
 /**
