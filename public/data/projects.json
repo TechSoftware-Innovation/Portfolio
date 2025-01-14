@@ -220,7 +220,7 @@
       "id": 7,
       "title": "AlquilaFacil",
       "description": "An application for searching and renting event spaces, developed using Flutter for the frontend, .NET Core for the backend, and MySQL as the database. Firebase services were integrated for authentication, along with additional services for image management and PayPal for handling payments.",
-      "image": "/public/assets/images/projects/alquilafacil/project-banner.png",
+      "image": "./assets/images/projects/alquilafacil/project-banner.png",
       "technologies": [
         {
           "name": "Flutter",
@@ -370,7 +370,7 @@
         "id": 8,
         "title": "ArtCollab",
         "description": "An application designed for collaboration between artists and writers. Registered users can explore popular works by genre and, if they are artists or writers, earn commissions for each published piece.",
-        "image": "/public/assets/images/projects/artcollab/artcollab.png",
+        "image": "./assets/images/projects/artcollab/artcollab.png",
         "technologies": [
           {
             "name": "Spring Boot",
@@ -391,12 +391,12 @@
             {
               "title": "Books Popular",
               "description": "Explore popular works by genre.",
-              "image": "/public/assets/images/projects/artcollab/books-popular.png"
+              "image": "./assets/images/projects/artcollab/books-popular.png"
             },
             {
               "title": "Collaborate with artists",
               "description": "Collaborate with artists and writers registered in the platform.",
-              "image": "/public/assets/images/projects/artcollab/collaborate.png"
+              "image": "./assets/images/projects/artcollab/collaborate.png"
             },
             {
               "title": "See works for other users",

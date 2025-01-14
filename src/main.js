@@ -78,11 +78,10 @@ async function loadProjects() {
 
       const button = document.createElement("button");
       button.className = "projects-card-button";
-      const link = document.createElement("a");
-      link.href = `project.html?id=${project["id"]}`;
-      link.textContent = "View proyect";
-      link.target = "";
-      button.appendChild(link);
+      button.textContent = "View project";
+      button.addEventListener("click", () => {
+        window.location.href = `project.html?id=${project["id"]}`;
+      });
 
       cardInfo.appendChild(title);
       cardInfo.appendChild(divider);
