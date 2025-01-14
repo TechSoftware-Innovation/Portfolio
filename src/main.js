@@ -49,7 +49,7 @@ const projectsContainer = document.getElementById("carousel");
 
 async function loadProjects() {
   try {
-    const response = await fetch('/data/projects.json');
+    const response = await fetch('data/projects.json');
     const data = await response.json();
     const projects = data["card-projects"];
     

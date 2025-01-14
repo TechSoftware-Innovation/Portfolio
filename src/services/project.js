@@ -11,7 +11,7 @@ function buildProject(){
 }
 
 async function getProjectData(){
-    const response = await fetch('/data/projects.json');
+    const response = await fetch('data/projects.json');
     return await response.json();
 }
 

@@ -1,52 +1,481 @@
 {
     "projects": [
         {
-            "name": "Project 1",
-            "description": "Proyecto realizado con Vue en el frontend y C# en el backend que permite a los usuarios crear, editar y eliminar tareas, y marcarlas como completadas.",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwO_mtaPMuUL7SN4vj5yK50NX9lLhi-pQb-A&s",
-            "link": "https://www.google.com"
+            "id": 5,
+            "title": "AidManager Web",
+            "description": "A web application designed to manage NGO projects efficiently, offering tools for event planning, real-time analytics, inventory tracking, and comprehensive reporting, all accessible from any device with a browser.",
+            "image": "./assets/images/projects/aidmanager-web/card-banner.jpeg"
         },
         {
-            "name": "Project 2",
-            "description": "This is a project",
-            "image": "https://avatars.githubusercontent.com/u/67919709?s=200&v=4",
-            "link": "https://www.google.com"
+            "id": 6,
+            "title": "AidManager Mobile",
+            "description": "A mobile tool designed to streamline NGO project management by analyzing event data, identifying improvement opportunities, and providing inventory and attendance reports. It also helps plan future events using previously registered information.",
+            "image": "./assets/images/projects/aidmanager-mobile/card-image.jpeg"
         },
         {
-            "name": "Project 3",
-            "description": "This is a project",
-            "image": "project3.jpg",
-            "link": "https://www.google.com"
+            "id": 7,
+            "title": "AlquilaFacil",
+            "description": "An application for searching and renting event spaces, developed using Flutter for the frontend, .NET Core for the backend, and MySQL as the database. Firebase services were integrated for authentication, along with additional services for image management and PayPal for handling payments.",
+            "image": "./assets/images/projects/alquilafacil/project-banner.png"
         },
         {
-            "name": "Project 4",
-            "description": "This is a project",
-            "image": "project4.jpg",
-            "link": "https://www.google.com"
+            "id": 8,
+            "title": "ArtCollab",
+            "description": "An application designed for collaboration between artists and writers. Registered users can explore popular works by genre and, if they are artists or writers, earn commissions for each published piece.",
+            "image": "./assets/images/projects/artcollab/artcollab.png"
         },
         {
-            "name": "Project 5",
-            "description": "This is a project",
-            "image": "https://avatars.githubusercontent.com/u/67919709?s=200&v=4",
-            "link": "https://www.google.com"
+            "id": 9,
+            "title": "Workshop N-GINE",
+            "description": "An application designed to streamline the management of workshops and improve the customer experience. It offers features for booking appointments, tracking service history, and managing customer profiles.",
+            "image": "./assets/images/projects/workshop-n-gine/logo.png"
+        }
+    ],
+    "full-page-project": [
+        {
+            "id": 1,
+            "title": "GottaGoFast",
+            "description": "A project developed using Flutter for the frontend and C# for the backend, designed to streamline car rentals with speed and convenience. The app provides an intuitive user interface and robust backend functionality to ensure a seamless booking experience.",
+            "image": "./assets/images/projects/gottagofast/banner__project-1.jpg",
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": "./assets/icons/flutter-icon.jpg"
+                },
+                {
+                    "name": "c#",
+                    "icon": "./assets/icons/csharp-icon.jpg"
+                },
+                {
+                    "name": "MySQL",
+                    "icon": "./assets/icons/mysql-icon.svg"
+                }
+            ],
+            "features": {
+                "title": "Features",
+                "items": [
+                    {
+                        "title": "Feature 1",
+                        "description": "Vehicle Search and Filters",
+                        "image": "./assets/images/projects/gottagofast/feature_p1_item1.jpg"
+                    },
+                    {
+                        "title": "Feature 2",
+                        "description": "Real-Time Availability",
+                        "image": "./assets/images/projects/gottagofast/feature_p1_item2.jpg"
+                    },
+                    {
+                        "title": "Feature 3",
+                        "description": "Secure Booking Management",
+                        "image": "./assets/images/projects/gottagofast/feature_p1_item3.jpg"
+                    }
+                ]
+            }
         },
         {
-            "name": "Project 6",
-            "description": "This is a project",
-            "image": "project3.jpg",
-            "link": "https://www.google.com"
+            "id": 2,
+            "title": "BookFlow",
+            "description": "A project built with Angular for the frontend and Spring Boot for the backend, designed to connect authors, publishers, and readers in a dynamic and engaging way. The platform enhances the reading experience with innovative features and a vast library of content.",
+            "image": "./assets/images/projects/bookflow/banner__project-2.jpg",
+            "technologies": [
+                {
+                    "name": "Angular",
+                    "icon": "./assets/icons/angular-icon.svg"
+                },
+                {
+                    "name": "Springboot",
+                    "icon": "./assets/icons/spring-boot-icon.svg"
+                },
+                {
+                    "name": "MySQL",
+                    "icon": "./assets/icons/mysql-icon.svg"
+                }
+            ],
+            "features": {
+                "title": "Features",
+                "items": [
+                    {
+                        "title": "Feature 1",
+                        "description": "Virtual Book Clubs",
+                        "image": "./assets/images/projects/bookflow/feature_p2_item1.jpg"
+                    },
+                    {
+                        "title": "Feature 2",
+                        "description": "Author Events",
+                        "image": "./assets/images/projects/bookflow/feature_p2_item2.jpg"
+                    },
+                    {
+                        "title": "Feature 3",
+                        "description": "Premium Content",
+                        "image": "./assets/images/projects/bookflow/feature_p2_item3.jpg"
+                    }
+                ]
+            }
         },
         {
-            "name": "Alquila Facil",
+            "id": 3,
+            "title": "AgroConnect",
+            "description": "AgroConnect is a comprehensive web-based system designed for efficient management of guinea pig farms. It allows breeders to seamlessly track operational expenses, manage resources, and schedule consultations with sector experts. The backend is powered by Spring Boot, while the interactive frontend is built with Angular, ensuring an optimized user experience. This project follows Domain-Driven Design (DDD) principles, ensuring a robust, scalable system for both current and future use cases.",
+            "image": "./assets/images/projects/agroconnect/project-banner-3.png",
+            "technologies": [
+                {
+                    "name": "Spring Boot",
+                    "icon": "./assets/icons/spring-boot-icon.svg"
+                },
+                {
+                    "name": "MySQL",
+                    "icon": "./assets/icons/mysql-icon.svg"
+                },
+                {
+                    "name": "Angular",
+                    "icon": "./assets/icons/angular-icon.svg"
+                }
+            ],
+            "features": {
+                "title": "Key Features",
+                "items": [
+                    {
+                        "title": "Expense Tracking",
+                        "description": "Easily track expenses related to guinea pig farming, enabling better financial management.",
+                        "image": "./assets/images/projects/agroconnect/project-3-feature-1.png"
+                    },
+                    {
+                        "title": "Resource Management",
+                        "description": "Streamlined management of resources, including food and care items for the guinea pigs.",
+                        "image": "./assets/images/projects/agroconnect/project-3-feature-2.png"
+                    },
+                    {
+                        "title": "Consultation Scheduling",
+                        "description": "Schedule consultations with expert advisors, ensuring timely advice for farm optimization.",
+                        "image": "./assets/images/projects/agroconnect/project-3-feature-3.png"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 4,
+            "title": "AgroSupport",
+            "description": "AgroSupport is a mobile application designed to connect guinea pig breeders with expert advisors. It allows users to schedule consultations, view posts from experts, personalize their profiles, and manage their consultation history. The backend is developed using Spring Boot, while the mobile frontend leverages Kotlin and Jetpack Compose to provide a seamless and user-friendly experience on Android devices. AgroSupport integrates real-time scheduling and communication, promoting growth and development for guinea pig farmers.",
+            "image": "./assets/images/projects/agrosupport/project-image-4.png",
+            "technologies": [
+                {
+                    "name": "Spring Boot",
+                    "icon": "./assets/icons/spring-boot-icon.svg"
+                },
+                {
+                    "name": "Kotlin",
+                    "icon": "./assets/icons/kotlin-icon.svg"
+                },
+                {
+                    "name": "Jetpack Compose",
+                    "icon": "./assets/icons/jetpack-compose-icon.svg"
+                }
+            ],
+            "features": {
+                "title": "Key Features",
+                "items": [
+                    {
+                        "title": "Consultation Scheduling",
+                        "description": "Users can easily schedule and manage consultations with expert advisors directly within the app.",
+                        "image": "./assets/images/projects/agrosupport/project-4-feature-1.png"
+                    },
+                    {
+                        "title": "Expert Posts",
+                        "description": "Stay informed with the latest posts and articles shared by industry experts to enhance farm operations.",
+                        "image": "./assets/images/projects/agrosupport/project-4-feature-2.png"
+                    },
+                    {
+                        "title": "Profile Customization",
+                        "description": "Farmers and experts can personalize their profiles to improve engagement and networking.",
+                        "image": "./assets/images/projects/agrosupport/project-4-feature-3.png"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 7,
+            "title": "AlquilaFacil",
             "description": "An application for searching and renting event spaces, developed using Flutter for the frontend, .NET Core for the backend, and MySQL as the database. Firebase services were integrated for authentication, along with additional services for image management and PayPal for handling payments.",
             "image": "/public/assets/images/projects/alquilafacil/project-banner.png",
-            "link": "https://www.google.com"
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": "./assets/icons/flutter-icon.jpg"
+                },
+                {
+                    "name": "c#",
+                    "icon": "./assets/icons/csharp-icon.jpg"
+                },
+                {
+                    "name": "MySQL",
+                    "icon": "./assets/icons/mysql-icon.svg"
+                }
+            ],
+            "features": {
+                "title": "Key Features",
+                "items": [
+                    {
+                        "title": "Booking",
+                        "description": "Reservations for spaces published in the application ",
+                        "image": "./assets/images/projects/alquilafacil/booking.png"
+                    },
+                    {
+                        "title": "Booking Managament",
+                        "description": "Reservations management using a calendar for manage the reservations schedule",
+                        "image": "./assets/images/projects/alquilafacil/booking-management.png"
+                    },
+                    {
+                        "title": "Search spaces by filters",
+                        "description": "Search space by your preferences like districts that you prefer or by capacity range or space type.",
+                        "image": "./assets/images/projects/alquilafacil/search-by-filter.png"
+                    },
+                    {
+                        "title": "Publish space",
+                        "description": "Publish your space for users could see and make a reservation.",
+                        "image": "./assets/images/projects/alquilafacil/publish-space.png"
+                    },
+                    {
+                        "title": "Save space to favorites",
+                        "description": "Save your favorite space for never lost it.",
+                        "image": "./assets/images/projects/alquilafacil/save-favorites.jpeg"
+                    },
+                    {
+                        "title": "See notifications",
+                        "description": "See notifications when someone make a reservation for your own space or when you subscribe to premium plan.",
+                        "image": "./assets/images/projects/alquilafacil/notifications.jpeg"
+                    },
+                    {
+                        "title": "Premium plan",
+                        "description": "Subscribe to premium plan for get more beneficts when you make a reservation for any space.",
+                        "image": "./assets/images/projects/alquilafacil/premium-plan.png"
+                    },
+                    {
+                        "title": "Payment",
+                        "description": "Make a payment for your reservation using PayPal.",
+                        "image": "./assets/images/projects/alquilafacil/payment.jpeg"
+                    },
+                    {
+                        "title": "Make a review for the space",
+                        "description": "Make a review for the space that you reserved.",
+                        "image": "./assets/images/projects/alquilafacil/reviews.jpeg"
+                    }
+                ]
+            }
         },
         {
-            "name": "ArtCollab",
+            "id": 5,
+            "title": "AidManager Web",
+            "description": "A web application designed to manage NGO projects efficiently, offering tools for event planning, real-time analytics, inventory tracking, and comprehensive reporting, all accessible from any device with a browser.",
+            "image": "./assets/images/projects/aidmanager-web/principal-image.jpeg",
+            "technologies": [
+                {
+                    "name": "Vue",
+                    "icon": "./assets/icons/vue-icon.png"
+                },
+                {
+                    "name": "c#",
+                    "icon": "./assets/icons/csharp-icon.jpg"
+                },
+                {
+                    "name": "MySQL",
+                    "icon": "./assets/icons/mysql-icon.svg"
+                }
+            ],
+            "features": {
+                "title": "Key Features",
+                "items": [
+                    {
+                        "title": "Project Proposal Submission",
+                        "description": "Empower team members of charitable organizations to propose new projects, enabling collaborative planning and streamlined approval processes.",
+                        "image": "./assets/images/projects/aidmanager-web/project-slide-1.jpeg"
+                    },
+                    {
+                        "title": "Analytics with Visual Insights",
+                        "description": "Utilize interactive charts to gain a clear view of financial metrics, beneficiary impact, and event performance, driving data-informed decisions.",
+                        "image": "./assets/images/projects/aidmanager-web/project-slide-2.jpeg"
+                    },
+                    {
+                        "title": "Task Scheduling Calendar",
+                        "description": "Organize and assign tasks seamlessly with an integrated calendar, ensuring project members stay on track and meet deadlines efficiently.",
+                        "image": "./assets/images/projects/aidmanager-web/project-slide-3.jpeg"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 6,
+            "title": "AidManager Mobile",
+            "description": "A mobile tool designed to streamline NGO project management by analyzing event data, identifying improvement opportunities, and providing inventory and attendance reports. It also helps plan future events using previously registered information.",
+            "image": "./assets/images/projects/aidmanager-mobile/principal-image.jpeg",
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": "./assets/icons/flutter-icon.jpg"
+                },
+                {
+                    "name": "c#",
+                    "icon": "./assets/icons/csharp-icon.jpg"
+                },
+                {
+                    "name": "MySQL",
+                    "icon": "./assets/icons/mysql-icon.svg"
+                }
+            ],
+            "features": {
+                "title": "Key Features",
+                "items": [
+                    {
+                        "title": "Event Planning Assistant",
+                        "description": "Easily organize and plan NGO events by leveraging historical data, ensuring optimized resource allocation and streamlined processes.",
+                        "image": "./assets/images/projects/aidmanager-mobile/project-slide-1.jpeg"
+                    },
+                    {
+                        "title": "Real-Time Event Insights",
+                        "description": "Access real-time analytics on attendee engagement, inventory usage, and event performance to make informed decisions during ongoing events.",
+                        "image": "./assets/images/projects/aidmanager-mobile/project-slide-2.jpeg"
+                    },
+                    {
+                        "title": "Comprehensive Reports",
+                        "description": "Generate detailed reports on inventory, attendance, and event outcomes to identify areas of improvement and ensure transparency for stakeholders.",
+                        "image": "./assets/images/projects/aidmanager-mobile/project-slide-3.jpeg"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 8,
+            "title": "ArtCollab",
             "description": "An application designed for collaboration between artists and writers. Registered users can explore popular works by genre and, if they are artists or writers, earn commissions for each published piece.",
-            "image": "https://media.discordapp.net/attachments/1320542364007403594/1326713437643866122/Populares.png?ex=67806dac&is=677f1c2c&hm=b308af8644d22e4893070c59e5cd1c5ec982cb2e361f8f8175ac9c1a1271d7a2&=&format=webp&quality=lossless&width=1097&height=1282",
-            "link": "https://www.google.com"
+            "image": "/public/assets/images/projects/artcollab/artcollab.png",
+            "technologies": [
+                {
+                    "name": "Spring Boot",
+                    "icon": "./assets/icons/spring-boot-icon.svg"
+                },
+                {
+                    "name": "MySQL",
+                    "icon": "./assets/icons/mysql-icon.svg"
+                },
+                {
+                    "name": "Angular",
+                    "icon": "./assets/icons/angular-icon.svg"
+                }
+            ],
+            "features": {
+                "title": "Key Features",
+                "items": [
+                    {
+                        "title": "Books Popular",
+                        "description": "Explore popular works by genre.",
+                        "image": "/public/assets/images/projects/artcollab/books-popular.png"
+                    },
+                    {
+                        "title": "Collaborate with artists",
+                        "description": "Collaborate with artists and writers registered in the platform.",
+                        "image": "/public/assets/images/projects/artcollab/collaborate.png"
+                    },
+                    {
+                        "title": "See works for other users",
+                        "description": " See works of other users and contact .",
+                        "image": "./assets/images/projects/artcollab/profile.png"
+                    },
+                    {
+                        "title": "Earn commissions",
+                        "description": "Earn commissions for each published piece.",
+                        "image": "./assets/images/projects/artcollab/earn-commissions.png"
+                    },
+                    {
+                        "title": "Publish your works",
+                        "description": "Publish your works for other users see and contact you.",
+                        "image": "./assets/images/projects/artcollab/publish-book.png"
+                    },
+                    {
+                        "title": "Create a room for collaboration",
+                        "description": "Create a room for collaboration with other users.",
+                        "image": "./assets/images/projects/artcollab/room.png"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 9,
+            "title": "Workshop N-GINE",
+            "description": "An application designed to streamline the management of workshops and improve the customer experience. It offers features for booking appointments, tracking service history, and managing customer profiles. The principal services offered by Workshop are maintenance, repair, and customization of vehicles.",
+            "image": "./assets/images/projects/workshop-n-gine/main.jpg",
+            "technologies": [
+                {
+                    "name": "Spring Boot",
+                    "icon": "./assets/icons/spring-boot-icon.svg"
+                },
+                {
+                    "name": "MySQL",
+                    "icon": "./assets/icons/mysql-icon.svg"
+                },
+                {
+                    "name": "Angular",
+                    "icon": "./assets/icons/angular-icon.svg"
+                }
+            ],
+            "features": {
+                "title": "Key Features",
+                "items": [
+                    {
+                        "title": "Registration Page",
+                        "description": "A simple and intuitive registration form for workshop users with essential details.",
+                        "image": "./assets/images/projects/workshop-n-gine/registration-page.jpg"
+                    },
+                    {
+                        "title": "Mechanic Management",
+                        "description": "Assign tasks to mechanics for efficient service delivery and scheduling.",
+                        "image": "./assets/images/projects/workshop-n-gine/mechanic-management.jpg"
+                    },
+                    {
+                        "title": "Customer Management",
+                        "description": "Manage customer records with options to add, edit, or delete.",
+                        "image": "./assets/images/projects/workshop-n-gine/customer-management.jpg"
+                    },
+                    {
+                        "title": "Client & Vehicle Details",
+                        "description": "View client info and manage their vehicles, including adding or deleting vehicles.",
+                        "image": "./assets/images/projects/workshop-n-gine/client-vehicle-management.jpg"
+                    },
+                    {
+                        "title": "Intervention Scheduling",
+                        "description": "Schedule interventions while validating availability of dates, mechanics, and vehicles.",
+                        "image": "./assets/images/projects/workshop-n-gine/intervention-scheduling.jpg"
+                    },
+                    {
+                        "title": "Parts Inventory",
+                        "description": "Track and manage the workshop's parts inventory, with options to add or remove items.",
+                        "image": "./assets/images/projects/workshop-n-gine/parts-inventory.jpg"
+                    },
+                    {
+                        "title": "Mechanic Task Overview",
+                        "description": "View and manage mechanic tasks, both as a leader and assigned team member.",
+                        "image": "./assets/images/projects/workshop-n-gine/mechanic-task-management.jpg"
+                    },
+                    {
+                        "title": "Intervention Execution",
+                        "description": "View vehicle details, IoT scanner info, and service history during an intervention.",
+                        "image": "./assets/images/projects/workshop-n-gine/intervention-execution-view-info.jpg"
+                    },
+                    {
+                        "title": "Task Assignment - Leader",
+                        "description": "Leader assigns tasks and ensures proper task distribution across mechanics.",
+                        "image": "./assets/images/projects/workshop-n-gine/intervention-task-assignment.jpg"
+                    },
+                    {
+                        "title": "Task Execution & Parts Request",
+                        "description": "Mechanic requests parts and tracks intervention progress during task execution.",
+                        "image": "./assets/images/projects/workshop-n-gine/task-execution-parts-request.jpg"
+                    },
+                    {
+                        "title": "Task Status Overview",
+                        "description": "Leader reviews all tasks and ensures they are completed before closing the intervention.",
+                        "image": "./assets/images/projects/workshop-n-gine/task-status-overview.jpg"
+                    }
+                ]
+            }
         }
     ]
 }
